@@ -76,7 +76,7 @@ Para criar suas próprias imagens e compartilhá-las.
 
 ## 🧹 Limpeza do Sistema
 
-O Docker pode ocupar muito espaço em disco. Estes comandos ajudam a limpar.
+O Docker ocupa muito espaço em disco. Estes comandos ajudam a limpar.
 
 * **`docker system prune`**: Remove contêineres parados, redes não utilizadas, imagens "pendentes" (dangling) e cache de build.
 
