@@ -92,5 +92,6 @@ Embora seja um comando separado (`docker compose`), é a ferramenta mais comum p
 
 * **`docker compose up`**: Inicia todos os serviços definidos em um arquivo `docker-compose.yml`.
 * **`docker compose down`**: Para e remove todos os contêineres, redes e volumes criados pelo `up`.
-* **`docker-compose up --build -d`**: Para construir uma imagem pelo composer
+* **`docker-compose up --build -d`**: Para construir uma imagem pelo composer.
+* **`docker-compose up -d`**: Para construir uma container pelo composer.
 
