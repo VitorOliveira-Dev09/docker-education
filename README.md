@@ -85,6 +85,16 @@ O Docker ocupa muito espaço em disco. Estes comandos ajudam a limpar.
 * **`docker volume prune`**: Remove volumes que não estão sendo usados por nenhum contêiner.
 
 ---
+##  <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/77f2d5e7-09c1-4450-9069-8929a7fa5450" />
+Logs de Container 
+
+Para ser feito as vizualizações de logs de um container para melhor auditoria, podemos usar estes comandos.
+
+* **`docker logs [MEU_CONTAINER]`**: Vizualiza logs completos.
+* **`docker logs -f [MEU_CONTAINER]` ou `docker logs --follow [meu_container]`**: Vizualiza os logs em tempo real.
+* **`docker logs -t [MEU_CONTAINER]`**: Vizualiza os logs com data e hora.
+* **`docker logs--since 1h [MEU_CONTAINER]`**: Vizualiza os logs desde de um determinado período.
+* **`docker logs --tail [N = número de linhas] [MEU_CONTAINER]`**: Vizualiza as últimas N linhas de logs.  
 
 ## ✨ Menção Honrosa: Docker Compose
 
